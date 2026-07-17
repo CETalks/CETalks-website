@@ -9,6 +9,7 @@ import OurTeam from './pages/OurTeam';
 import Spotlight from './pages/Spotlight';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
+import EventsList from './pages/EventsList';
 const App = () => {
 
 
@@ -23,6 +24,7 @@ const App = () => {
             <Route path="/spotlight" element={<Spotlight />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/events" element={<Events />} />
+            <Route path="/events-list" element={<EventsList />} />
           </Routes>
 </>
     </Router>

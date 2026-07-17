@@ -2,9 +2,12 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import event1 from '../assets/img/events/event-1.jpg';
-import event2 from '../assets/img/events/event-2.jpg';
-import event3 from '../assets/img/events/event-3.jpg';
+import unfiltered_ep6 from '../assets/event_posters/unfiltered_ep6.jpg';
+import election_campus from '../assets/event_posters/election_campus.jpg';
+import sfi_manifesto from '../assets/event_posters/sfi_manifesto.jpg';
+import ksu_manifesto from '../assets/event_posters/ksu_manifesto.jpg';
+import womens_day from '../assets/event_posters/womens_day.jpg';
+import euphony_round3 from '../assets/event_posters/euphony_round3.jpg';
 
 // Custom arrow components
 const CustomPrevArrow = (props) => (
@@ -22,19 +25,34 @@ const CustomNextArrow = (props) => (
 const Pastevents = () => {
   const eventsData = [
     {
-      title: 'Event 1',
-      date: 'January 1, 2024',
-      imageUrl: event1, // Replace with the actual image URL
+      title: 'Euphony Round 3: Duet & Unplugged',
+      date: 'April 1, 2026',
+      imageUrl: euphony_round3,
     },
     {
-      title: 'Event 2',
-      date: 'September 19, 2023',
-      imageUrl: event2, // Replace with the actual image URL
+      title: "Happy Women's Day Special",
+      date: 'March 8, 2026',
+      imageUrl: womens_day,
     },
     {
-      title: 'Event 3',
-      date: 'October 3, 2023',
-      imageUrl: event3, // Replace with the actual image URL
+      title: 'തുരന്നെടുപ്പ് 2026 | KSU Manifesto',
+      date: 'February 23, 2026',
+      imageUrl: ksu_manifesto,
+    },
+    {
+      title: 'തുരന്നെടുപ്പ് 2026 | SFI Manifesto',
+      date: 'February 23, 2026',
+      imageUrl: sfi_manifesto,
+    },
+    {
+      title: 'Inside a Campus During Election',
+      date: 'February 15, 2026',
+      imageUrl: election_campus,
+    },
+    {
+      title: 'Unfiltered Ep.06: Beyond the Verdict',
+      date: 'December 10, 2025',
+      imageUrl: unfiltered_ep6,
     },
   ];
 

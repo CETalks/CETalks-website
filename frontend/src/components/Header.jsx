@@ -83,6 +83,13 @@ const Header = () => {
               Events
             </Link>
             <Link
+              to="/events-list"
+              className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/events-list' ? 'text-yellow-200' : ''}`}
+              onClick={closeNav}
+            >
+              Events List
+            </Link>
+            <Link
               to="/media"
               className={`block py-3 hover:text-yellow-100 font-medium ${location.pathname === '/media' ? 'text-yellow-200' : ''}`}
               onClick={closeNav}
@@ -120,6 +127,12 @@ const Header = () => {
   className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/events' ? 'text-yellow-200' : ''}`}
 >
   Events
+</Link>
+<Link
+  to="/events-list"
+  className={`hover:text-yellow-100 font-[380] outfit-font text-base ${location.pathname === '/events-list' ? 'text-yellow-200' : ''}`}
+>
+  Events List
 </Link>          
 <Link
   to="/media"
