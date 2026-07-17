@@ -4,8 +4,55 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../styles/styles.css';
 
+// Import podcast posters
+import womens_day from '../assets/event_posters/womens_day.jpg';
+import sfi_manifesto from '../assets/event_posters/sfi_manifesto.jpg';
+import ksu_manifesto from '../assets/event_posters/ksu_manifesto.jpg';
+import election_campus from '../assets/event_posters/election_campus.jpg';
+import unfiltered_ep6 from '../assets/event_posters/unfiltered_ep6.jpg';
+
 const OurPodcastsMedia = () => {
   const podcasts = [
+    {
+      title: "How it's actually inside of a woman's mind",
+      host: "RJ Gauri & RJ Aarsha",
+      description: "This Women's Day, CETalks goes beyond the usual wishes and celebrations to explore the thoughts, emotions, struggles, and silent strengths that shape a woman's world.",
+      releaseDate: "Mar 08, 2026",
+      thumbnail: womens_day,
+      spotifyLink: "https://open.spotify.com/episode/7LkQjvLIrgvqx9ReOcWgYP?si=8fd82b0bab5f4908",
+    },
+    {
+      title: "തുരന്നെടുപ്പ് 2026 | Episode 1 : The Election Manifesto - CELESTION PANEL",
+      host: "SFI (RJ Sisira)",
+      description: "Tune in to listen to the visions for a better CET, put forward by SFI during this election season.",
+      releaseDate: "Feb 23, 2026",
+      thumbnail: sfi_manifesto,
+      spotifyLink: "https://open.spotify.com/episode/4fPb13HrTBm8P4FZhD1G1j?si=d85325324d344fdd",
+    },
+    {
+      title: "തുരന്നെടുപ്പ് 2026 | Episode 2 : The Election Manifesto - ALETHIUS PANEL",
+      host: "KSU (RJ Mariam)",
+      description: "Tune in to listen to the visions for a better CET, put forward by KSU during this election season.",
+      releaseDate: "Feb 23, 2026",
+      thumbnail: ksu_manifesto,
+      spotifyLink: "https://open.spotify.com/episode/6UxwtLAcKS6gpLjOfVoGBb?si=3fc590c653504053",
+    },
+    {
+      title: "Inside a Campus During Election",
+      host: "RJ Swathi",
+      description: "Posters going up. Voices getting louder. Friendships tested. Opinions divided. Beyond the rallies and results, there's a campus alive with conversations.",
+      releaseDate: "Feb 15, 2026",
+      thumbnail: election_campus,
+      spotifyLink: "https://open.spotify.com/episode/7xxDU55abEdDZaFCMJchrn?si=ca6af4bd4ab24932",
+    },
+    {
+      title: "Unfiltered Ep.06: Beyond the Verdict",
+      host: "RJ Aarsha",
+      description: "An unfiltered, deep-dive discussion in the sixth episode of the CETalks Unfiltered podcast series, exploring insights beyond the verdict.",
+      releaseDate: "Dec 10, 2025",
+      thumbnail: unfiltered_ep6,
+      spotifyLink: "https://open.spotify.com/show/5AGpr7Sd0kjciMAFxSuC0y",
+    },
     {
       title: "തുരന്നെടുപ്പ് 2023 | Ep 3: THE WRAP-UP",
       host: "RJ Nandana",

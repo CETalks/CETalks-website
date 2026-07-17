@@ -3,9 +3,9 @@ import '../styles/styles.css';
 
 const FeaturedVideo = () => {
   const latestRelease = {
-    title: 'തുരന്നെടുപ്പ് 2023',
+    title: 'തുരന്നെടുപ്പ് 2026 | Election Exit Poll Part 1',
     releaseDate: 'Release Date',
-    youtubeLink: 'https://www.youtube.com/embed/zyaBW5RCeWU?si=oFHHeK4X42C_-HkO', // Replace with the actual Youtube link
+    youtubeLink: 'https://www.youtube.com/embed/Cr9-S_Api8A', // Replace with the actual Youtube link
   };
 
   return (

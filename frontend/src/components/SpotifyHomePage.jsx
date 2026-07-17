@@ -8,6 +8,26 @@ import 'slick-carousel/slick/slick-theme.css';
 const SpotifyHomePage = () => {
   const spotifyData = [
     {
+      title: "Woman's Mind Special",
+      spotifyUrl: 'https://open.spotify.com/embed/episode/7LkQjvLIrgvqx9ReOcWgYP?utm_source=generator&t=0',
+    },
+    {
+      title: 'തുരന്നെടുപ്പ് 2026 | Ep 1',
+      spotifyUrl: 'https://open.spotify.com/embed/episode/4fPb13HrTBm8P4FZhD1G1j?utm_source=generator&t=0',
+    },
+    {
+      title: 'തുരന്നെടുപ്പ് 2026 | Ep 2',
+      spotifyUrl: 'https://open.spotify.com/embed/episode/6UxwtLAcKS6gpLjOfVoGBb?utm_source=generator&t=0',
+    },
+    {
+      title: 'Inside a Campus During Election',
+      spotifyUrl: 'https://open.spotify.com/embed/episode/7xxDU55abEdDZaFCMJchrn?utm_source=generator&t=0',
+    },
+    {
+      title: 'Unfiltered Ep.06',
+      spotifyUrl: 'https://open.spotify.com/embed/show/5AGpr7Sd0kjciMAFxSuC0y?utm_source=generator',
+    },
+    {
       title: 'Event 1',
       spotifyUrl: 'https://open.spotify.com/embed/episode/3ABHzLmDaXjzJS9kOssVvI?utm_source=generator&t=0',
     },
